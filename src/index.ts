@@ -17,4 +17,5 @@ export type {
   PointTransaction,
   Notification,
   Order,
+  PunchCardClaim,
 } from './types'

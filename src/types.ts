@@ -24,7 +24,32 @@ export type LoyaltyProgram = {
   brand_voice: Record<string, unknown>
   punch_card_enabled: boolean
   punch_card_target?: number
-  punch_card_reward_id?: string | null
+  // Reward the punch card resolves to on completion — one or several specific
+  // products, or a product category (evaluated dynamically against live
+  // products, not a fixed set). Null/undefined when no reward is configured
+  // yet. Exactly one of punch_card_reward_product_ids /
+  // punch_card_reward_category is set, matching whichever type is set —
+  // enforced in the database by punch_card_reward_shape_chk.
+  punch_card_reward_type?: 'products' | 'category' | null
+  punch_card_reward_product_ids?: string[] | null
+  punch_card_reward_category?: string | null
+}
+
+// A completed-but-unresolved (or resolved) punch card cycle. Created when
+// punch_card_count reaches target; resolved exactly once, via the
+// claim_punch_card_reward(p_customer_id, p_claim_id, p_product_id) RPC, when
+// the customer picks which eligible product to redeem.
+export type PunchCardClaim = {
+  id: string
+  customer_id: string
+  business_id: string
+  reward_type: 'products' | 'category'
+  eligible_product_ids: string[] | null
+  eligible_category: string | null
+  status: 'pending' | 'claimed'
+  chosen_product_id: string | null
+  completed_at: string
+  claimed_at: string | null
 }
 
 export type EarnRules = {
