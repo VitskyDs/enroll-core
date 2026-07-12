@@ -51,11 +51,23 @@ export function AuthProvider({ supabase, children }: { supabase: SupabaseClient;
   }, [businessId, supabase])
 
   useEffect(() => {
-    supabase.auth.getSession().then(({ data: { session } }: { data: { session: Session | null } }) => {
-      setSession(session)
-      setUser(session?.user ?? null)
-      setIsLoading(false)
-    })
+    supabase.auth.getSession()
+      .then(({ data: { session }, error }: { data: { session: Session | null }; error: unknown }) => {
+        // An invalid/expired refresh token (e.g. stale localStorage from
+        // before a domain migration) resolves here with session: null and an
+        // error rather than throwing — surface a clean signed-out state
+        // instead of leaving stale session/user data or a dangling
+        // isLoading, which otherwise lets RLS-gated requests fire with a
+        // dead token before the app notices it's signed out.
+        setSession(error ? null : session)
+        setUser(error ? null : (session?.user ?? null))
+        setIsLoading(false)
+      })
+      .catch(() => {
+        setSession(null)
+        setUser(null)
+        setIsLoading(false)
+      })
 
     const { data: { subscription } } = supabase.auth.onAuthStateChange((_event: string, session: Session | null) => {
       setSession(session)
