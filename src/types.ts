@@ -11,6 +11,7 @@ export type Business = {
   industry: string | null
   brand_color: string | null
   currency: string | null
+  default_language: 'en' | 'he' | null
 }
 
 export type LoyaltyProgram = {
