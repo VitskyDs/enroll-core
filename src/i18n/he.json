@@ -564,7 +564,7 @@
   "admin.products.nameHePlaceholder": "שם בעברית (אופציונלי)",
   "admin.products.descriptionHeLabel": "תיאור בעברית",
   "admin.products.descriptionHePlaceholder": "תיאור בעברית (אופציונלי)",
-  "admin.products.priceLabel": "מחיר ($)",
+  "admin.products.priceLabel": "מחיר",
   "admin.products.categoryLabel": "קטגוריה",
   "admin.products.categoryPlaceholder": "לדוגמה: משקאות",
   "admin.products.pointsEarnedLabel": "נקודות שיוענקו",
