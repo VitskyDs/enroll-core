@@ -11,6 +11,8 @@
   "common.saving": "שומר…",
   "common.back": "חזרה",
   "common.dismiss": "הסתרה",
+  "common.delete": "מחיקה",
+  "common.deleting": "מוחק…",
 
   "units.points_one": "{{count}} נקודה",
   "units.points_two": "{{count}} נקודות",
@@ -550,6 +552,11 @@
   "admin.rewards.rewardAdded": "הפרס נוסף",
   "admin.rewards.emptyTitle": "עדיין אין פרסים",
   "admin.rewards.addFirst": "הוספת הפרס הראשון שלכם",
+  "admin.rewards.deleteButtonTitle": "מחיקת פרס",
+  "admin.rewards.deleteTitle": "מחיקת פרס",
+  "admin.rewards.deleteConfirmMessage": "הפרס \"{{name}}\" יימחק לצמיתות. לא ניתן לבטל פעולה זו.",
+  "admin.rewards.rewardDeleted": "הפרס נמחק",
+  "admin.rewards.deleteFailed": "מחיקת הפרס נכשלה",
 
   "admin.products.title": "מוצרים",
   "admin.products.addTitle": "הוספת מוצר",
@@ -583,6 +590,11 @@
   "admin.products.saveChanges": "שמירת השינויים",
   "admin.products.emptyTitle": "עדיין אין מוצרים",
   "admin.products.addFirst": "הוספת המוצר הראשון שלכם",
+  "admin.products.deleteButtonTitle": "מחיקת מוצר",
+  "admin.products.deleteTitle": "מחיקת מוצר",
+  "admin.products.deleteConfirmMessage": "המוצר \"{{name}}\" יימחק לצמיתות. לא ניתן לבטל פעולה זו.",
+  "admin.products.productDeleted": "המוצר נמחק",
+  "admin.products.deleteFailed": "מחיקת המוצר נכשלה",
 
   "admin.settings.pageTitle": "פרופיל העסק",
   "admin.settings.basicInfoTitle": "פרטים בסיסיים",
