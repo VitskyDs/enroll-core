@@ -11,6 +11,8 @@
   "common.saving": "Saving…",
   "common.back": "Back",
   "common.dismiss": "Dismiss",
+  "common.delete": "Delete",
+  "common.deleting": "Deleting…",
 
   "units.points_one": "{{count}} point",
   "units.points_other": "{{count}} points",
@@ -500,6 +502,11 @@
   "admin.rewards.rewardAdded": "Reward added",
   "admin.rewards.emptyTitle": "No rewards yet",
   "admin.rewards.addFirst": "Add your first reward",
+  "admin.rewards.deleteButtonTitle": "Delete reward",
+  "admin.rewards.deleteTitle": "Delete reward",
+  "admin.rewards.deleteConfirmMessage": "\"{{name}}\" will be permanently deleted. This can't be undone.",
+  "admin.rewards.rewardDeleted": "Reward deleted",
+  "admin.rewards.deleteFailed": "Failed to delete reward",
 
   "admin.products.title": "Products",
   "admin.products.addTitle": "Add product",
@@ -533,6 +540,11 @@
   "admin.products.saveChanges": "Save changes",
   "admin.products.emptyTitle": "No products yet",
   "admin.products.addFirst": "Add your first product",
+  "admin.products.deleteButtonTitle": "Delete product",
+  "admin.products.deleteTitle": "Delete product",
+  "admin.products.deleteConfirmMessage": "\"{{name}}\" will be permanently deleted. This can't be undone.",
+  "admin.products.productDeleted": "Product deleted",
+  "admin.products.deleteFailed": "Failed to delete product",
 
   "admin.settings.pageTitle": "Business profile",
   "admin.settings.basicInfoTitle": "Basic info",
