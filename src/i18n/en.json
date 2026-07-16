@@ -514,7 +514,7 @@
   "admin.products.nameHePlaceholder": "שם בעברית (אופציונלי)",
   "admin.products.descriptionHeLabel": "Hebrew description",
   "admin.products.descriptionHePlaceholder": "תיאור בעברית (אופציונלי)",
-  "admin.products.priceLabel": "Price ($)",
+  "admin.products.priceLabel": "Price",
   "admin.products.categoryLabel": "Category",
   "admin.products.categoryPlaceholder": "e.g. Drinks",
   "admin.products.pointsEarnedLabel": "Points earned",
