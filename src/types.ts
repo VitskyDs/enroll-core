@@ -84,6 +84,49 @@ export type Product = {
   points_value: number | null
 }
 
+// The `services` table (TASK-144) — legacy/no-longer-written-to as a
+// storefront catalog per TASK-155 (see enroll-consumer's data model doc),
+// but active again for subscription plan config: a service can be sold
+// one-time (price_cents / points_value, same shape as before) and/or as a
+// recurring subscription (subscription_enabled + the two fields below, both
+// null when disabled).
+export type Service = {
+  id: string
+  business_id: string
+  name: string
+  description: string | null
+  price_cents: number | null
+  category: string | null
+  status: 'active' | 'draft' | 'inactive'
+  image_url: string | null
+  points_value: number | null
+  subscription_enabled: boolean
+  subscription_interval: 'weekly' | 'monthly' | null
+  subscription_price_cents: number | null
+}
+
+// A customer's recurring subscription to a service. interval/price_cents
+// snapshot the service's subscription plan at signup — a later change to
+// the service's plan config doesn't retroactively change what an existing
+// subscriber is billed. Billing is a demo/simulated construct (no payment
+// processor integrated) — process_subscription_renewals() is a pg_cron
+// scheduled function that awards points and advances next_renewal_at, no
+// card is ever charged. Not directly writable by clients — created via
+// create_service_subscription, cancelled via cancel_service_subscription
+// (both SECURITY DEFINER RPCs).
+export type ServiceSubscription = {
+  id: string
+  customer_id: string
+  business_id: string
+  service_id: string
+  interval: 'weekly' | 'monthly'
+  price_cents: number
+  status: 'active' | 'cancelled'
+  started_at: string
+  next_renewal_at: string
+  cancelled_at: string | null
+}
+
 export type CustomerFavorite = {
   id: string
   customer_id: string
