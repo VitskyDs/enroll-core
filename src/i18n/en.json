@@ -432,6 +432,11 @@
   "admin.customerDetail.giftInvalid": "Enter a positive number of points.",
   "admin.customerDetail.referralsCount": "Referrals ({{count}})",
   "admin.customerDetail.unknownReferee": "Unknown",
+  "admin.customerDetail.phonePlaceholder": "Phone number",
+  "admin.customerDetail.phoneNotSet": "No phone on file",
+  "admin.customerDetail.phoneEditAriaLabel": "Edit phone number",
+  "admin.customerDetail.phoneInvalid": "Enter a valid phone number.",
+  "admin.customerDetail.phoneUpdated": "Phone number updated",
 
   "admin.program.edit": "Edit",
   "admin.program.editComingSoon": "Editing the program is coming soon",

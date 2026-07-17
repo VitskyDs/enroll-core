@@ -478,6 +478,11 @@
   "admin.customerDetail.giftInvalid": "יש להזין מספר נקודות חיובי.",
   "admin.customerDetail.referralsCount": "הפניות ({{count}})",
   "admin.customerDetail.unknownReferee": "לא ידוע",
+  "admin.customerDetail.phonePlaceholder": "מספר טלפון",
+  "admin.customerDetail.phoneNotSet": "לא הוזן מספר טלפון",
+  "admin.customerDetail.phoneEditAriaLabel": "עריכת מספר טלפון",
+  "admin.customerDetail.phoneInvalid": "יש להזין מספר טלפון תקין.",
+  "admin.customerDetail.phoneUpdated": "מספר הטלפון עודכן",
 
   "admin.program.edit": "עריכה",
   "admin.program.editComingSoon": "עריכת התוכנית תהיה זמינה בקרוב",
