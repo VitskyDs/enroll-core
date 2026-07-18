@@ -641,6 +641,7 @@
   "admin.settings.hoursHint": "e.g. Mon–Fri 7am–6pm, Sat–Sun 8am–4pm",
   "admin.settings.hoursPlaceholder": "Mon–Fri 7am–6pm",
   "admin.settings.logoLabel": "Logo",
+  "admin.settings.uploadImageAriaLabel": "Upload {{label}}",
   "admin.settings.currencyLabel": "Currency",
   "admin.settings.currencyLockedHint": "Currency is locked once set and can no longer be changed.",
   "admin.settings.currencyUnlockedHint": "Locking a currency hides the switcher for customers — they'll always see this currency.",
