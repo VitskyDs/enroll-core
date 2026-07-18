@@ -590,6 +590,9 @@
   "admin.rewards.deleteConfirmMessage": "הפרס \"{{name}}\" יימחק לצמיתות. לא ניתן לבטל פעולה זו.",
   "admin.rewards.rewardDeleted": "הפרס נמחק",
   "admin.rewards.deleteFailed": "מחיקת הפרס נכשלה",
+  "admin.rewards.linkedProductsLabel": "מוצרים מקושרים",
+  "admin.rewards.linkedProductsHint": "ניתן למימוש עבור מוצר אחד או יותר. תמונת המוצר תשמש כתמונת הפרס אם לא הועלתה תמונה למעלה.",
+  "admin.rewards.noActiveProducts": "עדיין אין מוצרים פעילים — הוסיפו מוצר בעמוד המוצרים תחילה.",
 
   "admin.products.title": "מוצרים",
   "admin.products.addTitle": "הוספת מוצר",
