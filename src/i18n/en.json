@@ -540,6 +540,9 @@
   "admin.rewards.deleteConfirmMessage": "\"{{name}}\" will be permanently deleted. This can't be undone.",
   "admin.rewards.rewardDeleted": "Reward deleted",
   "admin.rewards.deleteFailed": "Failed to delete reward",
+  "admin.rewards.linkedProductsLabel": "Linked products",
+  "admin.rewards.linkedProductsHint": "Redeemable for one or more products. Used as the reward's image when no image is uploaded above.",
+  "admin.rewards.noActiveProducts": "No active products yet — add one on the products page first.",
 
   "admin.products.title": "Products",
   "admin.products.addTitle": "Add product",
