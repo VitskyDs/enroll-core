@@ -691,7 +691,6 @@
   "admin.settings.hoursHint": "לדוגמה: א׳–ה׳ 7:00–18:00, שישי 8:00–14:00",
   "admin.settings.hoursPlaceholder": "א׳–ה׳ 7:00–18:00",
   "admin.settings.logoLabel": "לוגו",
-  "admin.settings.coverImageLabel": "תמונת רקע",
   "admin.settings.currencyLabel": "מטבע",
   "admin.settings.currencyLockedHint": "המטבע ננעל לאחר ההגדרה הראשונית ולא ניתן לשנות אותו.",
   "admin.settings.currencyUnlockedHint": "נעילת מטבע מסתירה את בורר המטבע מהלקוחות — הם תמיד יראו את המטבע הזה.",
