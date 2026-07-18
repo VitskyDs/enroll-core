@@ -368,7 +368,7 @@
   "admin.awardPoints.phoneAriaLabel": "Customer phone number",
   "admin.awardPoints.notFound": "No customer found with that phone number.",
   "admin.awardPoints.ptsBalance": "{{count}} pts balance",
-  "admin.awardPoints.purchaseAmountLabel": "Purchase amount ($)",
+  "admin.awardPoints.purchaseAmountLabel": "Purchase amount",
   "admin.awardPoints.willCredit_one": "This will credit {{count}} point",
   "admin.awardPoints.willCredit_other": "This will credit {{count}} points",
   "admin.awardPoints.multiplierApplied": "({{tier}} tier multiplier applied)",

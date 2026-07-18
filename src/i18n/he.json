@@ -400,7 +400,7 @@
   "admin.awardPoints.phoneAriaLabel": "מספר הטלפון של הלקוח",
   "admin.awardPoints.notFound": "לא נמצא לקוח עם מספר הטלפון הזה.",
   "admin.awardPoints.ptsBalance": "יתרה: {{count}} נק׳",
-  "admin.awardPoints.purchaseAmountLabel": "סכום הרכישה ($)",
+  "admin.awardPoints.purchaseAmountLabel": "סכום הרכישה",
   "admin.awardPoints.willCredit_one": "פעולה זו תזכה אתכם ב-{{count}} נקודה",
   "admin.awardPoints.willCredit_two": "פעולה זו תזכה אתכם ב-{{count}} נקודות",
   "admin.awardPoints.willCredit_many": "פעולה זו תזכה אתכם ב-{{count}} נקודות",
