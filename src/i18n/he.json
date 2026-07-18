@@ -704,6 +704,7 @@
   "admin.settings.slugFormatInvalid": "הכתובת יכולה לכלול רק אותיות קטנות באנגלית, ספרות ומקפים.",
   "admin.settings.slugTaken": "הכתובת הזו כבר תפוסה.",
   "admin.settings.settingsSaved": "ההגדרות נשמרו",
+  "admin.settings.logoUploadFailed": "העלאת הלוגו נכשלה — שאר השינויים נשמרו. נסו שוב.",
   "admin.settings.saveChanges": "שמירת השינויים",
   "admin.settings.industryFoodAndBeverage": "מזון ומשקאות",
   "admin.settings.industryHealthAndBeauty": "בריאות ויופי",

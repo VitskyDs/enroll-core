@@ -654,6 +654,7 @@
   "admin.settings.slugFormatInvalid": "Slug must be lowercase letters, numbers, and hyphens only.",
   "admin.settings.slugTaken": "This slug is already taken.",
   "admin.settings.settingsSaved": "Settings saved",
+  "admin.settings.logoUploadFailed": "Failed to upload logo — your other changes were saved. Try again.",
   "admin.settings.saveChanges": "Save changes",
   "admin.settings.industryFoodAndBeverage": "Food & beverage",
   "admin.settings.industryHealthAndBeauty": "Health & beauty",
