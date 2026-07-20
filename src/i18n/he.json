@@ -753,6 +753,12 @@
   "admin.catchUp.doneButton": "סיום",
   "admin.catchUp.allActiveTitle": "כל הלקוחות פעילים",
   "admin.catchUp.checkBackTomorrowShort": "חזרו מחר.",
+  "admin.catchUp.reason.lapsed_recency": "לא ביקרו לאחרונה למרות ביקורים סדירים בעבר",
+  "admin.catchUp.reason.declining_frequency": "קצב הביקורים ירד באופן משמעותי",
+  "admin.catchUp.reason.points_idle": "צברו נקודות רבות בלי לממש לאחרונה",
+  "admin.catchUp.reason.tier_at_risk": "קרובים לסף של מדרגה חדשה",
+  "admin.catchUp.reason.birthday_approaching": "יום ההולדת שלהם מתקרב",
+  "admin.catchUp.reason.referral_cold": "החבר שהפנו הפך גם הוא ללא פעיל",
 
   "admin.devSignIn.testingLabel": "כניסה לבדיקה (בתצוגה מקדימה בלבד)",
   "admin.devSignIn.emailPlaceholder": "אימייל",
