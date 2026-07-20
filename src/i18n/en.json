@@ -701,6 +701,12 @@
   "admin.catchUp.doneButton": "Done",
   "admin.catchUp.allActiveTitle": "All customers are active",
   "admin.catchUp.checkBackTomorrowShort": "Check back tomorrow.",
+  "admin.catchUp.reason.lapsed_recency": "Hasn't visited recently despite regular visits before",
+  "admin.catchUp.reason.declining_frequency": "Visit frequency has dropped significantly",
+  "admin.catchUp.reason.points_idle": "Built up a lot of points without redeeming lately",
+  "admin.catchUp.reason.tier_at_risk": "Close to a new tier threshold",
+  "admin.catchUp.reason.birthday_approaching": "Their birthday is coming up",
+  "admin.catchUp.reason.referral_cold": "The friend they referred has also gone quiet",
 
   "admin.devSignIn.testingLabel": "Testing sign-in (preview only)",
   "admin.devSignIn.emailPlaceholder": "Email",
