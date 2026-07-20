@@ -673,6 +673,8 @@
   "admin.services.subscriptionPriceLabel": "מחיר המנוי",
   "admin.services.subscriptionIntervalRequired": "יש לבחור מחזור חיוב.",
   "admin.services.subscriptionPriceRequired": "יש להזין מחיר מנוי.",
+  "admin.services.comingSoonTitle": "ניהול שירותים בקרוב",
+  "admin.services.comingSoonDesc": "בקרוב תוכלו להגדיר כאן שירותים ותוכניות מנוי ללקוחות שלכם.",
 
   "admin.settings.pageTitle": "פרופיל העסק",
   "admin.settings.basicInfoTitle": "פרטים בסיסיים",
