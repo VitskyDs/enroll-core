@@ -623,6 +623,8 @@
   "admin.services.subscriptionPriceLabel": "Subscription price",
   "admin.services.subscriptionIntervalRequired": "Select a billing interval.",
   "admin.services.subscriptionPriceRequired": "Subscription price is required.",
+  "admin.services.comingSoonTitle": "Services management is coming soon",
+  "admin.services.comingSoonDesc": "Soon you'll be able to set up services and subscription plans here for your customers.",
 
   "admin.settings.pageTitle": "Business profile",
   "admin.settings.basicInfoTitle": "Basic info",
