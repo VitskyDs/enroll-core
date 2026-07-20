@@ -739,6 +739,7 @@
   "admin.catchUp.giftPointsPlaceholder": "לדוגמה: 50",
   "admin.catchUp.noteLabel": "הערה (אופציונלי)",
   "admin.catchUp.notePlaceholder": "לדוגמה: תודה שאתם לקוחות נאמנים",
+  "admin.catchUp.giftNoteDefault": "היי, שמנו לב שלא ביקרתם אצלנו לאחרונה — נשמח לראות אתכם שוב!",
   "admin.catchUp.chooseRewardLabel": "בחירת מתנה",
   "admin.catchUp.noActiveRewards": "אין מתנות פעילות — יש להוסיף מתנה קודם.",
   "admin.catchUp.dismissAndContinue": "דילוג והמשך",
