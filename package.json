@@ -1,6 +1,6 @@
 {
   "name": "@vitskyds/enroll-core",
-  "version": "0.10.0",
+  "version": "0.10.1",
   "description": "Shared Supabase client, types, auth context, and i18n setup for the Enroll platform",
   "type": "module",
   "exports": {
