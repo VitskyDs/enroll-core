@@ -1,6 +1,6 @@
 export { createSupabaseClient } from './supabase'
 export { AuthProvider, useAuth } from './auth-context'
-export { useBrandColor } from './use-brand-color'
+export { useBrandColor, applyBrandColor } from './use-brand-color'
 export {
   default as i18n,
   LANG_STORAGE_KEY,
