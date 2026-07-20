@@ -689,6 +689,7 @@
   "admin.catchUp.giftPointsPlaceholder": "e.g. 50",
   "admin.catchUp.noteLabel": "Note (optional)",
   "admin.catchUp.notePlaceholder": "e.g. Thanks for being a loyal customer",
+  "admin.catchUp.giftNoteDefault": "Hi, we noticed you haven't visited us in a while — we'd love to see you again!",
   "admin.catchUp.chooseRewardLabel": "Choose reward",
   "admin.catchUp.noActiveRewards": "No active rewards — add rewards first.",
   "admin.catchUp.dismissAndContinue": "Dismiss & continue",
